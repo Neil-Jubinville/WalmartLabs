@@ -49,10 +49,10 @@ Pre-reqs:  You need a fairly new NodeJS runtime installed and npm.
 
 ## How to Test
 The framework used is Jest,  I did a few tests to show that I can extrapolate a full set when necessary.
-Open a command prompt window, navigate to your repo folder and run:  ```npm run test''' . Note that the server needs to be a clean run instance for each pass. It is not automated to come up in build up / tear down routines.  I am still learning this test framework.
+Open a command prompt window, navigate to your repo folder and run:  ```npm run test``` . Note that the server needs to be a clean run instance for each pass. It is not automated to come up in build up / tear down routines.  I am still learning this test framework.
 
 Other
-* if you are testing on our own computer,  open a few command prompt windows and type:  ```telnet localhost ```
+* if you are testing on our own computer,  open a few command prompt windows and type:  ```telnet localhost 2300```
 * When you connect you will be given a name and a random number, explore the help menu for syntax on how to change your chat name, if you want.
 
 
