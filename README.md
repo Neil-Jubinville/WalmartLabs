@@ -6,7 +6,7 @@
 
 This chat server is for a code test demo, please do not use it in production or public.  It is only to demonstrate knowledge in planned abstractions, implementation, network socket management, and variable scoping.   
 
-The example chat server is pure to the request in the sense that a user can join the chat server simply by initiating a telnet session. It is a pure telnet chat server.  No client software needs to run.  Simply run the server and let people connect.  To make it more challenging and demonstrate more skill, no networking or green thread packages were used.  Raw socket comms and connection handlers were implmented.   
+The example chat server is pure to the request in the sense that a user can join the chat server simply by initiating a telnet session. It is a pure telnet chat server.  No client software needs to run.  Simply run the server and let people connect.  To make it more challenging and demonstrate more skill, no networking or green thread packages were used.  Raw socket comms and connection handlers were implemented.   
 
 #### Technology Choice
 
