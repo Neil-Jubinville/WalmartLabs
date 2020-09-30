@@ -14,7 +14,7 @@ The choice for using NodeJS over Python / Flask was because single threaded runt
 
 #### Architecture
 
-The design is simple and all code is in the single index.js.  There we have a socket server and a User class defined.  On connection I create a User object and make a two way binding between the instatiated socket and the user object.  This allows the user class to communicate through the various data structures of the chat server like channels, users, and of course message relays with direct reference to it's own comm channel.  
+The design is simple and all code is in the single index.js.  There we have a socket server and a User class defined.  On connection I create a User object and make a two way binding between the instantiated socket and the user object.  This allows the user class to communicate through the various data structures of the chat server like channels, users, and of course message relays with direct reference to it's own comm channel.  
 
 All the abstractions live at the chat server.   There is no client software.
 
@@ -60,6 +60,7 @@ Other
 >>| List Channels  |   channels? |
 >>| Create Channel |   #newchannel=channel_name |
 >>| Who and Where am I | ??  |
+>>| quit | #quit |
 
 
 

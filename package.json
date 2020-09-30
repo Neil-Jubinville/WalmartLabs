@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "ChattyServer",
   "main": "index.js",
+  "jest": {
+    "rootDir": ".",
+    "testMatch": ["**/test/*.test.(js|ts)"],
+    "silent": false,
+    "bail":true
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --detectOpenHandles --runInBand",
     "start:dev": "nodemon"
   },
   "repository": {
@@ -19,6 +25,7 @@
   "homepage": "https://github.com/Neil-Jubinville/WalmartLabs#readme",
   "devDependencies": {
     "@types/node": "^14.11.2",
+    "jest": "^26.4.2",
     "nodemon": "^2.0.4",
     "ts-node": "^9.0.0",
     "typescript": "^4.0.3"
